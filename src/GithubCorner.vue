@@ -1,13 +1,12 @@
 <template>
   <div id="vue-github-corner">
-    <a  :href="url" id="github-corner" aria-label="View source on Github"
-        @mouseenter="flipColor" @mouseleave="flipColor" >
+    <a  :href="url" id="github-corner" aria-label="View source on Github" >
       <svg  id="github-corner-svg"
             aria-hidden="true"
             viewBox="0 0 250 250" 
             :width="size" :height="size"
-            :style="svgStyle">
-        <path :d="svgPath1"></path>
+            :style="svgStyle" >
+        <path :d="svgPath1" @mouseenter="flipColor" @mouseleave="flipColor"></path>
         <path :d="svgPath2" :style="gitStyle" class="octo-arm"></path>
         <path :d="svgPath3" :style="gitStyle" class="octo-body"></path>
       </svg>

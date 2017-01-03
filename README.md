@@ -8,6 +8,8 @@
 
 Tholman's great github-corners in a convenient VueJS component
 
+[Project Page](https://roeefl.github.io/vue-github-corners/)
+
 All credits go to [Tholman's Original Repo](http://tholman.com/github-corners/)
 
 ## Screenshot
