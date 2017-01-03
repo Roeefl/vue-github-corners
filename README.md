@@ -4,6 +4,8 @@
 
 ### Current Version: 1.2.3
 
+[![NPM](https://nodei.co/npm/vue-github-corners.png?downloads=true)](https://nodei.co/npm/vue-github-corners/)
+
 ## Description
 
 Tholman's great github-corners in a convenient VueJS component
