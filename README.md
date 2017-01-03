@@ -2,7 +2,7 @@
 
 > Tholmans github-corners for VueJS
 
-### Current Version: 1.2.0
+### Current Version: 1.2.1
 
 ## Description
 
@@ -20,7 +20,7 @@ npm install --save vue-github-corners
 ### Basic Example:
 
 ```javascript
-import GithubCorner from 'vue-github-corners';
+import GithubCorner from 'vue-github-corners'
 
 <GithubCorner url="https://github.com/Roeefl/vue-github-corners"
               :size='120' >
@@ -30,7 +30,7 @@ import GithubCorner from 'vue-github-corners';
 ### Demonstrating usage of all available attributes:
 
 ```javascript
-import GithubCorner from 'vue-github-corners';
+import GithubCorner from 'vue-github-corners'
 
 <GithubCorner url="https://github.com/Roeefl/vue-github-corners"
               :size='140'

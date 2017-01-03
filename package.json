@@ -3,6 +3,23 @@
   "version": "1.2.0",
   "description": "Tholmans github-corners for VueJS",
   "author": "Roee FL <roeefl@gmail.com>",
+  "homepage": "https://github.com/Roeefl/vue-github-corners",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roeefl/vue-github-corners.git"
+  },
+  "keywords": [
+    "github",
+    "tholman",
+    "corner",
+    "octocat",
+    "vue",
+    "component" 
+  ],
+  "bugs": {
+    "url": "https://github.com/Roeefl/vue-github-corners/issues"
+  },
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",
