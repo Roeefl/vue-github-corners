@@ -12,7 +12,8 @@ All credits go to [Tholman's Original Repo](http://tholman.com/github-corners/)
 
 ## Installation
 
-For installing this module, run:
+### For installing this module, run:
+
 ```javascript
 npm install --save vue-github-corners
 ```
