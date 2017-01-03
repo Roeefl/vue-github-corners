@@ -26,6 +26,10 @@
         type: Number,
         default: 80
       },
+      colorScheme: {
+        type: String,
+        default: 'auto'
+      },
       cornerColor: {
         type: String, 
         default: '#625D5D'
@@ -66,6 +70,29 @@
           let holdSvgFill = this.svgStyle.fill
           this.svgStyle.fill = this.gitStyle.fill
           this.gitStyle.fill = holdSvgFill
+        }
+      }
+    },
+    beforeMount: function() {
+      if (this.colorScheme != 'auto') {
+        let sch = this.colorScheme
+        this.gitStyle.fill = '#fff'
+
+        if (sch.toLowerCase() == 'black') {
+          this.svgStyle.fill = '#151513'
+        } 
+        if (sch.toLowerCase() == 'green') {
+          this.svgStyle.fill = '#64CEAA'
+        }
+        if (sch.toLowerCase() == 'red') {
+          this.svgStyle.fill = '#FD6C6C'
+        }
+        if (sch.toLowerCase() == 'blue') {
+          this.svgStyle.fill = '#70B7FD'
+        }
+        if (sch.toLowerCase() == 'white') {
+          this.svgStyle.fill = '#fff'
+          this.gitStyle.fill = '#151513'
         }
       }
     }
