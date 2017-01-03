@@ -17,11 +17,39 @@ npm install --save vue-github-corners
 
 ## Usage
 
-### Basic Example:
+### Importing into your project:
 
 ```javascript
 import GithubCorner from 'vue-github-corners'
+```
 
+**If importing into a .Vue file, don't forget to register the component in your export components**
+
+### Demonstration:
+
+```javascript
+<template>
+  <div id="app">
+    <GithubCorner href='https://github.com/Roeefl/vue-github-corners'></GithubCorner>
+  </div>
+</template>
+
+<script>
+  import Index from './components/content/Index'
+  import GithubCorner from 'vue-github-corners'
+
+  export default {
+    name: 'app',
+    components: {
+      Index,
+      GithubCorner
+    },
+...
+```
+
+### Basic Example:
+
+```javascript
 <GithubCorner url="https://github.com/Roeefl/vue-github-corners"
               :size='120' >
 </GithubCorner>
@@ -30,8 +58,6 @@ import GithubCorner from 'vue-github-corners'
 ### Demonstrating usage of all available attributes:
 
 ```javascript
-import GithubCorner from 'vue-github-corners'
-
 <GithubCorner url="https://github.com/Roeefl/vue-github-corners"
               :size='140'
               cornerColor='#625D5D'
