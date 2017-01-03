@@ -6,7 +6,9 @@
 
 ## Description
 
-Tholmans great github-corners in a convenient VueJS component
+Tholman's great github-corners in a convenient VueJS component
+
+All credits go to [Tholman's Original Repo](http://tholman.com/github-corners/)
 
 ## Installation
 
