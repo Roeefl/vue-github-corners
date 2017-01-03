@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <GithubCorner></GithubCorner>
+    <GithubCorner url="https://github.com/Roeefl/vue-github-corners" flipOnHover>
+    </GithubCorner>
   </div>
 </template>
 

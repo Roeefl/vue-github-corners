@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Tholmans github-corners for VueJS",
   "author": "Roee FL <roeefl@gmail.com>",
-  "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
     "build": "node build/build.js",

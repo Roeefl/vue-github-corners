@@ -2,26 +2,52 @@
 
 > Tholmans github-corners for VueJS
 
-## Build Setup
+### Current Version: 1.1
 
-``` bash
-# install dependencies
-npm install
+## Description
 
-# serve with hot reload at localhost:8080
-npm run dev
+Tholmans great github-corners in a convenient VueJS component
 
-# build for production with minification
-npm run build
+## Installation
 
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
+For installing this module, run:
+```bash
+npm install --save vue-github-corners
 ```
 
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Usage
+
+### Basic Example:
+
+```javascript
+import GithubCorner from 'vue-github-corners';
+
+<GithubCorner url="https://github.com/Roeefl/vue-github-corners"
+              :size='120' >
+</GithubCorner>
+```
+
+### Demonstrating usage of all available attributes:
+
+```javascript
+import GithubCorner from 'vue-github-corners';
+
+<GithubCorner url="https://github.com/Roeefl/vue-github-corners"
+              :size='140'
+              cornerColor='#625D5D'
+              gitColor='PeachPuff'
+              leftCorner
+              flipOnHover >
+</GithubCorner>
+```
+
+## Available Properties
+
+| Property Name | Type | Default Value | Description |
+|--------------:|:----:|:-------------:|-------------|
+| url | String | '/' | Link to github repo |
+| size | Number (v-bind:) | 80 | Determines width & height of corner |
+| cornerColor | String | '#625D5D' | Background color for the corner |
+| gitColor | String | 'PeachPuff' | Fill color for the octocat |
+| leftCorner | Boolean | false | Use leftCorner to have the corner on the left, otherwise it'll be on the right by default |
+| flipOnHover | Boolean | false | Use flipOnHover to get a hover color flip affect to add some further life to the component |
