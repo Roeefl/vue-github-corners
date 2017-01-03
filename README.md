@@ -1,4 +1,4 @@
-# vue-github-corners
+# Vue Github Corners Component
 
 > Tholmans github-corners for VueJS
 
@@ -18,8 +18,9 @@ All credits go to [Tholman's Original Repo](http://tholman.com/github-corners/)
 
 ## Installation
 
-For installing this module, run:
-```bash
+### For installing this module, run:
+
+```javascript
 npm install --save vue-github-corners
 ```
 
