@@ -2,7 +2,7 @@
 
 > Tholmans github-corners for VueJS
 
-### Current Version: 1.2.1
+### Current Version: 1.2.2
 
 ## Description
 
@@ -13,7 +13,7 @@ All credits go to [Tholman's Original Repo](http://tholman.com/github-corners/)
 ## Installation
 
 For installing this module, run:
-```bash
+```javascript
 npm install --save vue-github-corners
 ```
 
@@ -32,7 +32,7 @@ import GithubCorner from 'vue-github-corners'
 ```javascript
 <template>
   <div id="app">
-    <GithubCorner href='https://github.com/Roeefl/vue-github-corners'></GithubCorner>
+    <GithubCorner url='https://github.com/Roeefl/vue-github-corners'></GithubCorner>
   </div>
 </template>
 
