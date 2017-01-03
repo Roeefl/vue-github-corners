@@ -12,7 +12,6 @@ All credits go to [Tholman's Original Repo](http://tholman.com/github-corners/)
 
 ## Screenshot
 
-Here's a small screenshot:
 ![GithubCorner][screenshot]
 
 [screenshot]: https://github.com/Roeefl/vue-github-corners/blob/master/src/Screenshot.png?raw=true "GithubCorner"
